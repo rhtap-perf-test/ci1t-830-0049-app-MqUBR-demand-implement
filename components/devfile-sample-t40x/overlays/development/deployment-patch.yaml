@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-t40x
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/ci1t-830-0049-tenant/ci1t-830-0049-app/devfile-sample-t40x@sha256:a09c8dd6c078aabd25d6b20367d46d1e1cff107a567acf6036d4704b25c32635
+        name: my-nodejs
+        resources: {}
+status: {}
